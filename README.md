@@ -21,5 +21,4 @@ This project automates the login feature of [SauceDemo](https://www.saucedemo.co
 
 Install dependencies:
 
-```bash
-npm install
+npx wdio run wdio.conf.js
