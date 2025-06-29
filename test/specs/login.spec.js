@@ -28,7 +28,7 @@ describe('SauceDemo Login application', () => {
         it(`UC-3: Valid login test ${index + 1}`, async () => {
             await LoginPage.login(user.username, user.password);
             await expect(browser).toHaveTitle('Swag Labs');
-            await LoginPage.clearFields();
+            //await LoginPage.clearFields();
         });
     });
 });
